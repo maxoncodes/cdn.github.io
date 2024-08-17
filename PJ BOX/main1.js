@@ -1,3 +1,4 @@
+/*<![CDATA[*/ 
 'use strict'
 var $license_item = '/p/themes.html'
 function license() {
@@ -923,4 +924,7 @@ window.onload = function () {
       new _0x59355e(_0x5e7bc4(this), _0x46c633)
     })
   }
-})(jQuery)﻿
+})(jQuery)
+/*]]>*/
+  jQuery(document).ready(function($) {$(&#39;#megamenuid&#39;).megaBloggerMenu({ postsNumber : 4, noThumbnail : &#39;https://2.bp.blogspot.com/-Z7jG9iO9OTg/Vazz6YJnFQI/AAAAAAAALVs/wlSvXPgdDAo/s1600/no_image_available.png&#39; 
+}); });
