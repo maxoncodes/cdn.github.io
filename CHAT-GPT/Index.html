@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎓 Mastering ChatGPT - Complete Guide</title>
+    <style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(45deg, #5f9ea0, #ff6347, #1e90ff, #32cd32);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5), 0 0 15px rgba(255, 255, 255, 0.37);
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #333;
+    background-color: #e8ce75;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+article {
+    background: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+pre {
+    background: #e8e8e8;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+button {
+    background-color: #5f9ea0;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #468487;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+  </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 512.002 512.002" style="enable-background:new 0 0 512.002 512.002" xml:space="preserve"><path style="fill:#c7c5cc" d="M421.941 168.244v127.931a30.661 30.661 0 0 1-20.099 28.797c-29.812 10.917-88.457 29.262-145.846 29.262-27.422 0-54.415-4.177-78.193-9.748a457.576 457.576 0 0 1-35.245-9.782 467.93 467.93 0 0 1-26.631-9.387c-11.828-4.59-19.651-15.938-19.651-28.626V170.289l159.72 52.833 165.945-54.878z"/><path style="fill:#c7c5cc" d="M256 17.358 9.254 98.973 256 180.588l246.746-81.615z"/><path style="fill:#adacb2" d="m502.746 98.968-246.749 81.625L9.259 98.968 57.745 82.93l198.252 65.586L454.26 82.93z"/><path style="fill:#0087ff" d="M502.746 98.968v42.54l-246.749 81.613L9.259 141.508v-42.54l246.738 81.625z"/><path style="fill:#00a5ff" d="M502.746 98.968v42.54l-246.749 81.613v-42.528z"/><path style="fill:#adacb2" d="M255.997 223.123 96.276 170.29v40.283l46.283 15.31v108.822a457.124 457.124 0 0 0 35.245 9.782V237.54l78.193 25.865 165.944-54.879v-40.283l-165.944 54.88z"/><path style="fill:#00a5ff" d="M107.933 414.266c0-19.465 15.78-35.245 35.245-35.245s35.245 15.78 35.245 35.245h-70.49z"/><path style="fill:#ffdf46" d="M195.615 494.641H90.74l17.193-80.375h70.49z"/><path d="M511.894 97.647c-.505-3.493-3.044-6.444-6.402-7.513L258.906 8.573a9.256 9.256 0 0 0-5.812 0L111.99 55.245a9.253 9.253 0 1 0 5.812 17.569L256 27.104l217.281 71.868-42.253 13.977c-4.851 1.605-7.484 6.839-5.879 11.69a9.256 9.256 0 0 0 8.783 6.35c.962 0 1.942-.152 2.907-.47l56.652-18.739v23.045l-228.24 75.494v-23.045l140.525-46.479c4.851-1.605 7.484-6.84 5.88-11.691-1.606-4.85-6.835-7.479-11.691-5.88L256 170.841l-85.92-28.419 36.219-13.512c4.788-1.787 7.221-7.116 5.435-11.903-1.787-4.791-7.118-7.223-11.903-5.437l-57.816 21.569L38.719 98.973l45.01-14.888c4.851-1.604 7.485-6.839 5.88-11.69-1.605-4.85-6.845-7.487-11.69-5.879L6.51 90.133C2.708 91.344 0 94.965 0 98.973v42.538a9.252 9.252 0 0 0 6.347 8.784l80.676 26.685v119.697c0 16.61 10.031 31.233 25.557 37.253a475.014 475.014 0 0 0 20.66 7.45v29.521c-19.417 4.449-34.022 21.629-34.531 42.257l-17.016 79.55a9.252 9.252 0 0 0 9.049 11.188h32.85l.02.001.026-.001h39.085l.026.001.02-.001h32.851a9.252 9.252 0 0 0 9.049-11.188l-17.016-79.55c-.52-21.111-15.805-38.617-35.903-42.553v-23.428c29.17 8.5 66.296 16.311 104.256 16.311 58.791 0 118.608-18.696 149.033-29.841 15.647-5.73 26.16-20.793 26.16-37.478v-54.972c0-5.111-4.142-9.254-9.254-9.254s-9.254 4.142-9.254 9.254v18.865c0 8.952-5.634 17.031-14.019 20.103-29.273 10.723-86.734 28.712-142.668 28.712-5.111 0-9.254 4.142-9.254 9.254s4.143 9.254 9.254 9.254c58.791 0 118.608-18.696 149.033-29.841a39.406 39.406 0 0 0 7.654-3.81v2.439c0 8.952-5.634 17.031-14.019 20.103-29.273 10.722-86.734 28.712-142.668 28.712-38.185 0-75.694-8.414-104.256-17.104v-16.783c19.16 5.591 41.28 10.731 64.797 13.699a9.46 9.46 0 0 0 1.17.073 9.255 9.255 0 0 0 1.147-18.435c-24.589-3.102-47.618-8.707-67.114-14.648v-93.399l101.35 33.523c.013.004.026.005.04.009.416.135.844.237 1.283.313.087.015.172.027.259.04.434.063.872.106 1.323.106s.89-.043 1.323-.106c.087-.013.173-.024.26-.04a9.27 9.27 0 0 0 1.283-.312c.014-.004.027-.005.041-.01l153.782-50.866v26.222c0 5.111 4.142 9.254 9.254 9.254s9.254-4.142 9.254-9.254v-32.344l74.458-24.628a9.253 9.253 0 0 0 6.347-8.784V98.973a10.148 10.148 0 0 0-.111-1.326zM170.943 485.389l-2.703-22.012c-.623-5.072-5.237-8.682-10.311-8.057-5.072.623-8.68 5.24-8.056 10.312l2.426 19.757h-18.243l2.426-19.757c.624-5.072-2.984-9.689-8.056-10.312-5.069-.615-9.688 2.985-10.312 8.057l-2.703 22.012h-13.229l13.235-61.869h55.524l13.235 61.869h-13.233zm-3.475-80.376h-48.58c3.737-9.777 13.216-16.739 24.29-16.739 11.073 0 20.553 6.961 24.29 16.739zM18.506 111.78l114.732 37.949v23.045l-114.732-37.95V111.78zm114.732 210.041a455.061 455.061 0 0 1-13.969-5.147c-8.347-3.236-13.74-11.085-13.74-19.996v-2.436a40.68 40.68 0 0 0 7.05 3.58c6.08 2.357 13.016 4.9 20.66 7.469v16.53zm0-36.1a459.92 459.92 0 0 1-13.969-5.157c-8.347-3.236-13.74-11.085-13.74-19.996V183.1l27.71 9.166-.001 93.455zm18.506-129.871 95.002 31.423v23.045l-95.002-31.423V155.85z"/></svg>
+            Mastering ChatGPT - A Complete Guide
+        </h1>
+    </header>
+    
+    
+    <section>
+        <h2>📚 Module 1: Introduction to ChatGPT</h2>
+
+        <article>
+            <h3>📖 Lesson 1.1: What is ChatGPT?</h3>
+            <p>Understand what ChatGPT is and how it works.</p>
+            <pre><code>🌟 Prompt: What is artificial intelligence?</code></pre>
+            <button onclick="copyText('What is artificial intelligence?', event)">📋 Copy</button>
+            <p><strong>Example Response:</strong> "Artificial intelligence (AI) refers to the simulation of human intelligence in machines..."</p>
+        </article>
+
+        <article>
+            <h3>📖 Lesson 1.2: Why Use ChatGPT?</h3>
+            <p>Learn the benefits and unique features of ChatGPT.</p>
+            <pre><code>🌟 Prompt: How can ChatGPT help in content creation?</code></pre>
+            <button onclick="copyText('How can ChatGPT help in content creation?', event)">📋 Copy</button>
+            <p><strong>Example Response:</strong> "ChatGPT can assist in generating blog posts, social media content, product descriptions..."</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>🔧 Module 2: Getting Started with ChatGPT</h2>
+        <article>
+            <h3>📖 Lesson 2.1: Basic Usage</h3>
+            <p>Learn the basics of interacting with ChatGPT.</p>
+            <pre><code>🌟 Prompt: Tell me a joke.</code></pre>
+            <button onclick="copyText('Tell me a joke.', event)">📋 Copy</button>
+            <p><strong>Example Response:</strong> "Why don’t scientists trust atoms? Because they make up everything!"</p>
+        </article>
+
+        <article>
+            <h3>📖 Lesson 2.2: Common Use Cases</h3>
+            <p>Explore the various applications of ChatGPT.</p>
+            <pre><code>🌟 Prompt: Help me write a conclusion for my essay on climate change.</code></pre>
+            <button onclick="copyText('Help me write a conclusion for my essay on climate change.', event)">📋 Copy</button>
+            <p><strong>Example Response:</strong> "In conclusion, addressing climate change requires immediate and sustained efforts..."</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>🎨 Module 3: Advanced ChatGPT Techniques</h2>
+        <article>
+            <h3>📖 Lesson 3.1: Contextual Prompts</h3>
+            <p>Learn how to maintain context in conversations with ChatGPT.</p>
+            <pre><code>🌟 Prompt: Based on our previous discussion on AI, how can I apply it in healthcare?</code></pre>
+            <button onclick="copyText('Based on our previous discussion on AI, how can I apply it in healthcare?', event)">📋 Copy</button>
+            <p><strong>Example Response:</strong> "AI can be applied in healthcare for predictive diagnostics, personalized treatments..."</p>
+        </article>
+
+        <article>
+            <h3>📖 Lesson 3.2: Structured Responses</h3>
+            <p>Get ChatGPT to provide structured information in lists or tables.</p>
+            <pre><code>🌟 Prompt: List the top 5 programming languages in 2024.</code></pre>
+            <button onclick="copyText('List the top 5 programming languages in 2024.', event)">📋 Copy</button>
+            <p><strong>Example Response:</strong> "1. Python, 2. JavaScript, 3. Java, 4. C#, 5. C++"</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>⚙️ Module 4: ChatGPT in Different Fields</h2>
+        <article>
+            <h3>📖 Lesson 4.1: ChatGPT in Content Creation</h3>
+            <p>Learn how ChatGPT can assist with generating content.</p>
+            <pre><code>🌟 Prompt: Write an engaging intro for a blog post about AI in education.</code></pre>
+            <button onclick="copyText('Write an engaging intro for a blog post about AI in education.', event)">📋 Copy</button>
+            <p><strong>Example Response:</strong> "The future of education is being reshaped by AI, as it brings personalized learning..."</p>
+        </article>
+
+        <article>
+            <h3>📖 Lesson 4.2: ChatGPT in Customer Support</h3>
+            <p>Explore how ChatGPT can be used to automate customer support tasks.</p>
+            <pre><code>🌟 Prompt: Provide a response to a customer asking about the status of their order.</code></pre>
+            <button onclick="copyText('Provide a response to a customer asking about the status of their order.', event)">📋 Copy</button>
+            <p><strong>Example Response:</strong> "Your order is currently being processed and is expected to ship within the next 2 days..."</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>💡 Module 5: Tips and Tricks</h2>
+        <article>
+            <h3>📖 Lesson 5.1: Writing Effective Prompts</h3>
+            <p>Learn how to craft prompts that get the best results.</p>
+            <pre><code>🌟 Prompt: Create a detailed outline for a research paper on renewable energy.</code></pre>
+            <button onclick="copyText('Create a detailed outline for a research paper on renewable energy.', event)">📋 Copy</button>
+            <p><strong>Example Response:</strong> "I. Introduction, II. Types of Renewable Energy, III. Benefits, IV. Challenges, V. Conclusion"</p>
+        </article>
+
+        <article>
+            <h3>📖 Lesson 5.2: Avoiding Common Pitfalls</h3>
+            <p>Tips on how to avoid common mistakes when using ChatGPT.</p>
+            <pre><code>🌟 Prompt: Why did ChatGPT not understand my question?</code></pre>
+            <button onclick="copyText('Why did ChatGPT not understand my question?', event)">📋 Copy</button>
+            <p><strong>Example Response:</strong> "ChatGPT might not understand the question if it's too vague or lacks context..."</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>🛠️ Module 6: Advanced Prompts</h2>
+        <article>
+            <h3>📖 Lesson 6.1: Basic Prompts</h3>
+            <p>Learn the basics of creating prompts.</p>
+            <pre><code>🌟 Prompt: List the top 5 programming languages.</code></pre>
+            <button onclick="copyText('List the top 5 programming languages.', event)">📋 Copy</button>
+            <p><strong>Example Response:</strong> "1. Python, 2. JavaScript, 3. Java, 4. C#, 5. C++"</p>
+        </article>
+
+        <article>
+            <h3>📖 Lesson 6.2: Intermediate Prompts</h3>
+            <p>Move beyond basics to more complex prompts.</p>
+            <pre><code>🌟 Prompt: Explain how to bake a cake, and then suggest toppings.</code></pre>
+            <button onclick="copyText('Explain how to bake a cake, and then suggest toppings.', event)">📋 Copy</button>
+            <p><strong>Example Response:</strong> "To bake a cake, first preheat your oven… For toppings, you can consider…"</p>
+        </article>
+
+        <article>
+            <h3>📖 Lesson 6.3: Advanced Prompts</h3>
+            <p>Master advanced prompting techniques.</p>
+            <pre><code>🌟 Prompt: Based on our previous discussion on AI, how would you apply machine learning in healthcare?</code></pre>
+            <button onclick="copyText('Based on our previous discussion on AI, how would you apply machine learning in healthcare?', event)">📋 Copy</button>
+            <p><strong>Example Response:</strong> "Machine learning can be applied in healthcare for predictive diagnostics, personalized treatments…"</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>🚀 Module 7: Future of ChatGPT and AI</h2>
+        <article>
+            <h3>📖 Lesson 7.1: What’s Next for ChatGPT?</h3>
+            <p>Explore the future developments of ChatGPT.</p>
+            <pre><code>🌟 Prompt: What are the upcoming features of ChatGPT?</code></pre>
+            <button onclick="copyText('What are the upcoming features of ChatGPT?', event)">📋 Copy</button>
+            <p><strong>Example Response:</strong> "Future updates may include improved context understanding, better integrations with third-party apps…"</p>
+        </article>
+
+        <article>
+    <h3>📖 Lesson 7.2: The Role of AI in the Future</h3>
+    <p>Discuss how AI will shape the future across different fields.</p>
+    <pre><code>🌟 Prompt: How will AI impact the job market in the next 10 years?</code></pre>
+    <button onclick="copyText('How will AI impact the job market in the next 10 years?', event)">📋 Copy</button>
+    <p><strong>Example Response:</strong> "AI will likely automate many routine tasks, leading to a shift in job roles and new opportunities…"</p>
+</article>
+
+<footer>
+    <p>&copy; 2024 Mastering ChatGPT | All rights reserved.</p>
+</footer>
+
+<script>
+function copyText(text, event) {
+    navigator.clipboard.writeText(text).then(function() {
+        var button = event.target;  // Clicked button ko get karo
+        button.innerText = 'Copied!';  // Button ka text "Copied!" me badlo
+        setTimeout(function() {
+            button.innerText = '📋 Copy';  // 1 second baad wapas "📋 Copy" text dikhao
+        }, 1000);
+    }, function(err) {
+        console.error('Text copy nahi ho paya: ', err);
+    });
+}
+</script>
+
+</body>
+</html>
