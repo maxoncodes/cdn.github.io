@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="title" content="MaxonCodes UI Library - Free UI Components & Web Design Tools">
+<meta name="description" content="MaxonCodes UI Library offers free UI components for web developers, including buttons, cards, forms, colors, grids, and design tools.">
+<meta name="keywords" content="UI components, web design, free UI elements, buttons, cards, forms, colors, grid system, UI tools, CSS generators, HTML templates">
+<meta name="robots" content="index, follow">
+<meta name="author" content="MaxonCodes">
+<meta property="og:title" content="MaxonCodes UI Library - Free UI Components & Web Design Tools">
+<meta property="og:description" content="Discover a vast collection of UI components and design resources for web developers. Perfect for enhancing web projects.">
+<meta property="og:url" content="https://ui.maxoncodes.com">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://ui.maxoncodes.com/logo.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MaxonCodes UI Library - Free UI Components & Web Design Tools">
+<meta name="twitter:description" content="Explore free, ready-to-use UI components and tools for web development.">
+<meta name="twitter:image" content="https://ui.maxoncodes.com/logo.jpg">
+<link rel="icon" href="https://ui.maxoncodes.com/favicon.ico" type="image/x-icon">
+
+
+    <!-- CSS 
+    ============================================ -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/vendor/aos.css">
+    <link rel="stylesheet" href="assets/css/plugins/feature.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+         /*style for button section*/
+  .btx {
+      top: 85px;  
+      display: block;
+      align-items: center;
+      justify-content: center;
+      max-width: 90%; /* Responsive width */
+      width: 100%;
+      margin: 50px auto; /* Center the container */
+      padding: 20px; /* Added padding for inner spacing */
+      border: 3px solid #c5ced9;
+      border-radius: 8px;
+      box-shadow: 
+          inset 2px 2px 2px rgba(255,255,255,0.5),
+          7px 7px 20px rgba(0,0,0,0.1),
+          4px 4px 5px rgba(0,0,0,0.1);
+      position: relative;
+      animation: colorfulShadow 5s ease-in-out infinite;
+  }
+
+  h2 {
+        font-weight: 800;
+        position: relative;
+        text-align: center;
+        color: #353535;
+        font-size: 30px;
+        text-shadow: 2px 2px 3px #b8b9be, -2px -2px 3px #fff;
+      }
+  
+  /* Add media query for better mobile responsiveness */
+  @media (max-width: 768px) {
+      .btx {
+          width: 90%; /* Adjust width for smaller screens */
+          margin: 20px auto;
+      }
+  }
+  
+  /* Keyframes for animated shadow */
+  @keyframes colorfulShadow {
+      0% {
+          box-shadow: 
+              0px 0px 10px 2px rgba(255, 99, 71, 0.6),
+              0px 0px 20px 4px rgba(255, 140, 0, 0.4),
+              0px 0px 30px 6px rgba(60, 179, 113, 0.3);
+      }
+      50% {
+          box-shadow: 
+              0px 0px 15px 3px rgba(173, 216, 230, 0.6),
+              0px 0px 25px 5px rgba(0, 191, 255, 0.4),
+              0px 0px 35px 7px rgba(147, 112, 219, 0.3);
+      }
+      100% {
+          box-shadow: 
+              0px 0px 10px 2px rgba(255, 99, 71, 0.6),
+              0px 0px 20px 4px rgba(255, 140, 0, 0.4),
+              0px 0px 30px 6px rgba(60, 179, 113, 0.3);
+      }
+  }
+    </style>
+</head>
+
+<body class="template-color-1 spybody white-version" data-spy="scroll" data-target=".navbar-example2" data-offset="150">
+
+    <!-- Start Header -->
+    <header class="rn-header haeder-default black-logo-version header--fixed header--sticky">
+        <div class="header-wrapper rn-popup-mobile-menu m--0 row align-items-center">
+            <!-- Start Header Left -->
+            <div class="col-lg-2 col-6">
+                <div class="header-left">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/images/AC.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Header Left -->
+            <!-- Start Header Center -->
+            <div class="col-lg-10 col-6">
+                <div class="header-center">
+                    <nav id="sideNav" class="mainmenu-nav navbar-example2 d-none d-xl-block">
+                        <!-- Start Mainmanu Nav -->
+                        <ul class="primary-menu nav nav-pills">
+                            <li class="nav-item"><a class="nav-link smoth-animation active" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#features">UI Components</a></li>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#resume">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#clients">Clients</a></li>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#pricing">Pricing</a></li>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#blog">blog</a></li>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts">Contact</a></li>
+                        </ul>
+                        <!-- End Mainmanu Nav -->
+                    </nav>
+                    <!-- Start Header Right  -->
+                    <div class="header-right">
+                        <a class="rn-btn" target="_blank" href="#"><span>Go NOW</span></a>
+                        <div class="hamberger-menu d-block d-xl-none">
+                            <i id="menuBtn" class="feather-menu humberger-menu"></i>
+                        </div>
+                        <div class="close-menu d-block">
+                            <span class="closeTrigger">
+                            <i data-feather="x"></i>
+                        </span>
+                        </div>
+                    </div>
+                    <!-- End Header Right  -->
+
+                </div>
+            </div>
+            <!-- End Header Center -->
+        </div>
+    </header>
+    <!-- End Header Area -->
+    <!-- Start Popup Mobile Menu  -->
+    <div class="popup-mobile-menu">
+        <div class="inner">
+            <div class="menu-top">
+                <div class="menu-header">
+                    <a class="logo" href="index.html">
+                        <img src="assets/images/logo/logos-circle.png" alt="Personal Portfolio">
+                    </a>
+                    <div class="close-button">
+                        <button class="close-menu-activation close"><i data-feather="x"></i></button>
+                    </div>
+                </div>
+                <p class="discription">Inbio is a personal portfolio template. You can customize all.</p>
+            </div>
+            <div class="content">
+                <ul class="primary-menu nav nav-pills">
+                    <li class="nav-item"><a class="nav-link smoth-animation active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#clients">Clients</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#blog">blog</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts">Contact</a></li>
+                </ul>
+                <!-- social sharea area -->
+                <div class="social-share-style-1 mt--40">
+                    <span class="title">find with me</span>
+                    <ul class="social-share d-flex liststyle">
+                        <li class="facebook"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg></a>
+                        </li>
+                        <li class="instagram"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg></a>
+                        </li>
+                        <li class="linkedin"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end -->
+            </div>
+        </div>
+    </div>
+    <!-- End Popup Mobile Menu  -->
+
+    <main class="main-page-wrapper">
+
+     <!--1-->
+     <div class="btx">
+        <h2>Linear Gradient Generator</h2>
+        <p><span style="color: brown; font-weight: 800;">ℹ️ How to use :</span> Select your preferred colors, then click the copy icon to copy the generated linear gradient </p>
+        <p class="codepen" data-height="450" data-default-tab="result" data-slug-hash="yLmKoME" data-pen-title="Experimental Gradient Editor" data-editable="true" data-user="maxonpoll" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+            <span>See the Pen <a href="https://codepen.io/maxonpoll/pen/yLmKoME">
+            Experimental Gradient Editor</a> by MAXON (<a href="https://codepen.io/maxonpoll">@maxonpoll</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</div>
+<br>
+<br>
+
+<!--2-->
+<div class="btx">
+    <h2>Tetradic radial-background generator</h2>
+        <p><span style="color: brown; font-weight: 800;">ℹ️ How to use :</span> Select your preferred colors, then select to copy the generated radial-background </p>
+    <p class="codepen" data-height="450" data-default-tab="result" data-slug-hash="GRVxvxW" data-pen-title="Tetradic radial-background generator" data-editable="true" data-user="maxonpoll" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/maxonpoll/pen/GRVxvxW">
+        Tetradic radial-background generator</a> by MAXON (<a href="https://codepen.io/maxonpoll">@maxonpoll</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</div>
+<br>
+<br>
+
+<!--3-->
+<div class="btx">
+    <h2>Material Color Picker</h2>
+        <p><span style="color: brown; font-weight: 800;">ℹ️ How to use :</span> Select your preferred colors, then click to copy the hexa color code</p>
+    <p class="codepen" data-height="450" data-default-tab="result" data-slug-hash="KKOovxx" data-pen-title="Material Color Picker" data-editable="true" data-user="maxonpoll" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/maxonpoll/pen/KKOovxx">
+        Material Color Picker</a> by MAXON (<a href="https://codepen.io/maxonpoll">@maxonpoll</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</div>
+<br>
+<br>
+
+<!--4-->
+<div class="btx">
+    <h2>Hexa Color Picker</h2>
+        <p><span style="color: brown; font-weight: 800;">ℹ️ How to use :</span> Click on rotate wheel to generate new colors, then click on generated colors to copy the hexa color code</p>
+    <p class="codepen" data-height="450" data-default-tab="result" data-slug-hash="eYqMGOq" data-pen-title="Colors Picker" data-editable="true" data-user="maxonpoll" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/maxonpoll/pen/eYqMGOq">
+        Colors Picker</a> by MAXON (<a href="https://codepen.io/maxonpoll">@maxonpoll</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</div>
+<br>
+<br>
+
+<!--5-->
+<div class="btx">
+    <p class="codepen" data-height="450" data-default-tab="result" data-slug-hash="KKOoXaL" data-pen-title="Safe Colors Picker" data-editable="true" data-user="maxonpoll" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/maxonpoll/pen/KKOoXaL">
+        Safe Colors Picker</a> by MAXON (<a href="https://codepen.io/maxonpoll">@maxonpoll</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</div>
+<br>
+<br>
+    </main>
+
+    <!-- Start Footer Area -->
+    <div class="rn-footer-area rn-section-gap section-separator">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-area text-center">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/AC.png" alt="logo">
+                            </a>
+                        </div>
+                        <p class="description mt--30">© <a target="_blank" href="">Maxoncodes UI.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Area -->
+
+    <!-- JS ============================================ -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/modernizer.min.js"></script>
+    <script src="assets/js/vendor/feather.min.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.js"></script>
+    <script src="assets/js/vendor/text-type.js"></script>
+    <script src="assets/js/vendor/wow.js"></script>
+    <script src="assets/js/vendor/aos.js"></script>
+    <script src="assets/js/vendor/particles.js"></script>
+    <!-- main JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
